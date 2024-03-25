@@ -1,0 +1,79 @@
+{
+  "lockfile_version": "1",
+  "packages": {
+    "libiconv@latest": {
+      "last_modified": "2024-03-08T13:51:52Z",
+      "resolved": "github:NixOS/nixpkgs/a343533bccc62400e8a9560423486a3b6c11a23b#libiconv",
+      "source": "devbox-search",
+      "version": "2.38",
+      "systems": {
+        "aarch64-linux": {
+          "store_path": "/nix/store/8a4v6l5wav9kc672ws0mj4i40w39dr10-glibc-iconv-2.38"
+        },
+        "x86_64-linux": {
+          "store_path": "/nix/store/bijjhvx3wgz22cz0c6fx5g138d1zn89v-glibc-iconv-2.38"
+        }
+      }
+    },
+    "maturin@latest": {
+      "last_modified": "2024-03-19T05:49:19Z",
+      "resolved": "github:NixOS/nixpkgs/5710127d9693421e78cca4f74fac2db6d67162b1#maturin",
+      "source": "devbox-search",
+      "version": "1.4.0",
+      "systems": {
+        "aarch64-darwin": {
+          "store_path": "/nix/store/6ic50jfwa2a84aqdi75s8lddkl9wv4f4-maturin-1.4.0"
+        },
+        "aarch64-linux": {
+          "store_path": "/nix/store/qzs1lldld39abx7vn5ayqnnnhzdkczfi-maturin-1.4.0"
+        },
+        "x86_64-darwin": {
+          "store_path": "/nix/store/zkjy1wa8p80xvdwsl8dvvv8dz89xslf4-maturin-1.4.0"
+        },
+        "x86_64-linux": {
+          "store_path": "/nix/store/1p709j1f4glp5m7b9ydns7za6i8jvmdl-maturin-1.4.0"
+        }
+      }
+    },
+    "python3@latest": {
+      "last_modified": "2024-03-08T13:51:52Z",
+      "resolved": "github:NixOS/nixpkgs/a343533bccc62400e8a9560423486a3b6c11a23b#python3",
+      "source": "devbox-search",
+      "version": "3.11.8",
+      "systems": {
+        "aarch64-darwin": {
+          "store_path": "/nix/store/83q23q0drz3xjc0dks7k7hci923kd7s1-python3-3.11.8"
+        },
+        "aarch64-linux": {
+          "store_path": "/nix/store/xyzvnwgbzxin3ks0qnb8w6c3xqsifalh-python3-3.11.8"
+        },
+        "x86_64-darwin": {
+          "store_path": "/nix/store/3d6vir7gpf5k179fqdq2ji6lhgpfhxg4-python3-3.11.8"
+        },
+        "x86_64-linux": {
+          "store_path": "/nix/store/3v2ch16fkl50i85n05h5ckss8pxx6836-python3-3.11.8"
+        }
+      }
+    },
+    "rustup@latest": {
+      "last_modified": "2024-03-08T13:51:52Z",
+      "resolved": "github:NixOS/nixpkgs/a343533bccc62400e8a9560423486a3b6c11a23b#rustup",
+      "source": "devbox-search",
+      "version": "1.26.0",
+      "systems": {
+        "aarch64-darwin": {
+          "store_path": "/nix/store/hgzyfdwvy68mp3xpbniwavizcpd67s2y-rustup-1.26.0"
+        },
+        "aarch64-linux": {
+          "store_path": "/nix/store/2pn6r28vj0lf62shzwj3i8r3mg2njdvh-rustup-1.26.0"
+        },
+        "x86_64-darwin": {
+          "store_path": "/nix/store/xwf6zn2y28655864c3m5453m02ig9id4-rustup-1.26.0"
+        },
+        "x86_64-linux": {
+          "store_path": "/nix/store/49kaqs594l0i29b0dgzm3mvjz9blsdlj-rustup-1.26.0"
+        }
+      }
+    }
+  }
+}

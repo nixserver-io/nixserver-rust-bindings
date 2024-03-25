@@ -1,0 +1,16 @@
+[package]
+name = "nixserver-rust-bindings"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rnix = "0.11.0"
+rowan = "0.15.15"
+pyo3 = { version = "0.21.0-beta.0", features = ["extension-module"] }
+
+
+[lib]
+name = "nixserver_rust_bindings"
+crate-type = ["cdylib"]
