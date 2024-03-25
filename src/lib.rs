@@ -32,6 +32,7 @@ fn enabled_services(contents: &str) -> PyResult<Vec<String>> {
 fn recurse_to_attrset(expr: ast::Expr) -> Option<ast::AttrSet> {
     match expr {
         ast::Expr::AttrSet(set) => Some(set),
+        ast::Expr::LetIn(let_in) => let_in.body().and_then(|body| recurse_to_attrset(body)),
         ast::Expr::Lambda(ref lambda) => {
             if let Some(ast::Expr::AttrSet(set)) = lambda.body() {
                 Some(set)
